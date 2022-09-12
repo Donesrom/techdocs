@@ -1,0 +1,67 @@
+= New Page: Contents of a new page
+Don Esrom <donesrom@gmail.com>
+
+This is a new page. + 
+It contains everything I am trying to learn on Antora
+
+== Section heading
+New heading... +
+[red]#new text# +
+Pass through text *+++bold+++* "
+
+=== Images
+
+image::/media/..["New image", link="https://pixabay.com/photos/landscape-evening-onaruto-bridge-7438429/", window="_blank"]
+
+== Lists
+* Bullet list
+- new bullet
+** new bullet
+*** new bullet level
+
+. Numbered list
+- new number
+** new number
+.. lowerletter
+... lowerroman
+
+== Glosary
+Term 1::
+
+Asciidoc
+
+Term 2::
+Second term to discuss 
+
+== Linkages 
+Allows you to provide links to same document. 
+    this is another one
+<<Images, click here!>>
+
+TIP: Always make sure to use powerman because it uses a cheatsheet. 
+
+.An example table
+[options="header", "footer"]
+|=====================
+|col 1 |col 2 |Col 3
+|1 | Item 1| a
+|2 | Item 2| b
+|3 | Item 3| c
+|=====================
+
+.CSV data, 15% each column
+[format="csv", width="60%", cols="4"]
+[frame="topbot", grid="none"]
+|=======
+1,2,3,4
+a,b,c,d
+A,B,C,D
+|=======
+
+.(Optional Title) Please Note
+[NOTE]
+=================
+*NOTE* Block
+
+Use: It is important to use capital letters to show such things
+============
